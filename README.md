@@ -9,16 +9,19 @@ To write a program to implement the the Logistic Regression Model to Predict the
 
 ## Algorithm
 
-1.Import the required packages and print the present data.
+1.Import the standard libraries.
 
-2.Print the placement data and salary data.
+2.Upload the dataset and check for any null or duplicated values using .isnull() and .duplicated() function respectively.
 
-3.Find the null and duplicate values.
+3.Import LabelEncoder and encode the dataset.
 
-4.Using logistic regression find the predicted values of accuracy , confusion matrices.
+4.Import LogisticRegression from sklearn and apply the model on the dataset.
 
-5.Display the results.
+5.Predict the values of array.
 
+6.Calculate the accuracy, confusion and classification report by importing the required modules from sklearn.
+
+7.Apply new unknown values.
 ## Program:
 ```
 /*
